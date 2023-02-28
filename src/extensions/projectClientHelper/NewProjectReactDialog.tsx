@@ -156,12 +156,12 @@ export default class NewProjectDialog extends BaseDialog {
                 // 3. Update isProjectFolder Property of New Folder
                 this.updateFolderMetadata(spid).then((success:boolean) => {
                   console.log(":: updateFolderMetadata SUCCESS::");
+                  this.close();
                   location.href = newFolderUrl;
                 })
 
-
               });
-              this.close();
+              
             })
           }
         })
