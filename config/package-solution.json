@@ -3,14 +3,14 @@
   "solution": {
     "name": "project-client-helpers-client-side-solution",
     "id": "36cee78a-3277-49cf-b508-3a467a95f9f5",
-    "version": "3.0.0.17",
+    "version": "3.0.0.18",
     "includeClientSideAssets": true,
     "features": [
       {
         "title": "Application Extension - Deployment of custom action.",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "74e707c3-4047-489f-81b4-81a760940aff",
-        "version": "3.0.0.17",
+        "version": "3.0.0.18",
         "assets": {
           "elementManifests": [
             "elements.xml"
